@@ -1,0 +1,56 @@
+.nav-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    transition: background-color 0.25s ease;
+}
+
+.logo-link {
+    display: block;
+    width: 125px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.logo {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+}
+
+.nav-link {
+    display: flex;
+}
+
+.nav-link > a {
+    padding: 20px 20px;
+    line-height: 35px;
+}
+
+.nav-link:hover {
+    background-color: rgba(255,255,255,0.9);
+    color: #1986c5;
+    cursor: pointer;
+}
+
+/* when scrolled */
+.scrolled {
+    background-color: #ffffff;
+    color: #1986c5;
+    border-bottom: 1px solid #0a93eb;
+}
+
+.scrolled .navbar {
+    color: #666;
+}
