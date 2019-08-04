@@ -1,8 +1,29 @@
 .hero {
-    height: 700px;
+    height: 550px;
     background-color: #102b3e;
 }
 
-.what_we_do {
-    height: 1000px;
+.content-border {
+    border-bottom: 1px solid #ccc;
+}
+
+.content-title {
+    color: #066b98;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.content-text {
+    color: #666;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.two-column {
+    display: flex;
+}
+
+.column-left {
+    margin-right: 20px;
 }

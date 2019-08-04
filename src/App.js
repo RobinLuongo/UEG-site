@@ -2,15 +2,16 @@ import React from 'react';
 import './App.css';
 
 import Navbar from './components/Navbar';
+import HeroContent from './components/HeroContent';
+import WhatWeDo from './components/WhatWeDo';
 
 function App() {
   return (
     <div>
       <Navbar />
-      <div className="hero">
-      </div>
-      <div className="what_we_do">
-      </div>
+      <HeroContent />
+      <div className="hero content-border"></div>
+      <WhatWeDo />
     </div>
   );
 }
