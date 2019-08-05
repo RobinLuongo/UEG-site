@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import HeroContent from './components/HeroContent';
 import WhatWeDo from './components/WhatWeDo';
+import WhoWeAre from './components/WhoWeAre';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HeroContent />
       <div className="hero content-border"></div>
       <WhatWeDo />
+      <WhoWeAre />
     </div>
   );
 }
