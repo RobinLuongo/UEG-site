@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/UEG-site/static/css/main.cc837058.chunk.css",
-    "main.js": "/UEG-site/static/js/main.44e2782f.chunk.js",
-    "main.js.map": "/UEG-site/static/js/main.44e2782f.chunk.js.map",
+    "main.css": "/UEG-site/static/css/main.5c5e9ecd.chunk.css",
+    "main.js": "/UEG-site/static/js/main.cec9131f.chunk.js",
+    "main.js.map": "/UEG-site/static/js/main.cec9131f.chunk.js.map",
     "runtime~main.js": "/UEG-site/static/js/runtime~main.fffe5f17.js",
     "runtime~main.js.map": "/UEG-site/static/js/runtime~main.fffe5f17.js.map",
-    "static/js/2.540a5a4a.chunk.js": "/UEG-site/static/js/2.540a5a4a.chunk.js",
-    "static/js/2.540a5a4a.chunk.js.map": "/UEG-site/static/js/2.540a5a4a.chunk.js.map",
+    "static/js/2.7e2cd490.chunk.js": "/UEG-site/static/js/2.7e2cd490.chunk.js",
+    "static/js/2.7e2cd490.chunk.js.map": "/UEG-site/static/js/2.7e2cd490.chunk.js.map",
     "index.html": "/UEG-site/index.html",
-    "precache-manifest.4120c50170ca6376118faaf74a761a38.js": "/UEG-site/precache-manifest.4120c50170ca6376118faaf74a761a38.js",
+    "precache-manifest.1e041408e9fee3bf045fc4f46332f462.js": "/UEG-site/precache-manifest.1e041408e9fee3bf045fc4f46332f462.js",
     "service-worker.js": "/UEG-site/service-worker.js",
-    "static/css/main.cc837058.chunk.css.map": "/UEG-site/static/css/main.cc837058.chunk.css.map",
+    "static/css/main.5c5e9ecd.chunk.css.map": "/UEG-site/static/css/main.5c5e9ecd.chunk.css.map",
     "static/media/atlas.jpeg": "/UEG-site/static/media/atlas.31912fea.jpeg",
+    "static/media/hero-dark.jpg": "/UEG-site/static/media/hero-dark.b0855313.jpg",
+    "static/media/hero.jpg": "/UEG-site/static/media/hero.2326e624.jpg",
     "static/media/logo-blue-large.png": "/UEG-site/static/media/logo-blue-large.630a7dea.png",
-    "static/media/logo-white-large.png": "/UEG-site/static/media/logo-white-large.f819ef45.png"
+    "static/media/logo-white-large.png": "/UEG-site/static/media/logo-white-large.f819ef45.png",
+    "static/media/partners-graphic.png": "/UEG-site/static/media/partners-graphic.99654bdc.png",
+    "static/media/wwd-graphic2.png": "/UEG-site/static/media/wwd-graphic2.4ec3d791.png"
   }
 }
