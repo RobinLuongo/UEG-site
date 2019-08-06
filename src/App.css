@@ -1,6 +1,9 @@
 .hero {
     height: 550px;
     background-color: #102b3e;
+    background-image: url("./content/images/hero.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .content-border {

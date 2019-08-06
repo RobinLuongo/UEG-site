@@ -5,6 +5,9 @@ import Navbar from './components/Navbar';
 import HeroContent from './components/HeroContent';
 import WhatWeDo from './components/WhatWeDo';
 
+import heroDark from './content/images/hero-dark.jpg';
+import hero from './content/images/hero.jpg';
+
 function App() {
   return (
     <div>
