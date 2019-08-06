@@ -16,11 +16,11 @@ export default function Navbar() {
                 <div className="navbar">
                     {
                         scrolled ?
-                        <a className="logo-link">
+                        <a className="logo-link" href="#">
                             <img className="logo" src={logoBlue} alt="logo" />
                         </a>
                         :
-                        <a className="logo-link">
+                        <a className="logo-link" href="#">
                             <img className="logo" src={logoWhite} alt="logo"/>
                         </a>
                     }

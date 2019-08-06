@@ -1,5 +1,9 @@
 .what-we-do {
-    height: 500px;
     background-color: #f3f5f7;
     padding-top: 15px;
+}
+
+.wwd-graphic {
+    width: auto;
+    height: 400px;
 }
