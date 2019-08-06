@@ -1,0 +1,21 @@
+.contact {
+    position: relative;
+}
+
+.contact .content-title {
+    color: white;
+}
+
+.contact:before {
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    background: url("../content/images/hero.jpg") 0 0 repeat;
+    transform: scaleX(-1);
+}
+
+

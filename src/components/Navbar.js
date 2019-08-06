@@ -74,12 +74,8 @@ export default function Navbar() {
                 break;
         }
         let element = document.querySelector(selector);
-        console.log(element, element.offsetTop)
-        // document.querySelector(selector).scrollIntoView({
-        //     behavior: 'smooth'
-        // })
         window.scroll({
-            top: element.offsetTop - 116,
+            top: element.offsetTop - 100,
             left: 0,
             behavior: 'smooth'
         })

@@ -2,7 +2,7 @@ import React from 'react';
 import './WhatWeDo.css';
 import graphic from '../content/images/wwd-graphic2.png'
 
-export default function Navbar() {
+export default function WhatWeDo() {
     return (
         <div className="what-we-do content-border" id="whatWeDo">
             <div className="container two-column">

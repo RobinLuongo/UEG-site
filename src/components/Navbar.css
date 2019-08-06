@@ -9,7 +9,6 @@
 
 .logo-link {
     display: block;
-    width: 125px;
 }
 
 .navbar {
@@ -20,8 +19,8 @@
 
 .logo {
     display: block;
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100px;
 }
 
 .nav-list {
@@ -35,8 +34,8 @@
 }
 
 .nav-link > a {
-    padding: 20px 20px;
-    line-height: 35px;
+    padding: 10px 20px;
+    line-height: 45px;
 }
 
 .nav-link:hover {
