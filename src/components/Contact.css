@@ -18,4 +18,11 @@
     transform: scaleX(-1);
 }
 
+.contact-input {
+    padding: 5px;
+    border-radius: 5px;
+}
 
+.mc-field-group {
+    padding-top: 10px;
+}
