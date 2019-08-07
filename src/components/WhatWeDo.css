@@ -7,3 +7,8 @@
     width: auto;
     height: 400px;
 }
+
+.what-we-do .content-text:last-child {
+  margin-top: 30px;
+  font-weight: 500;
+}

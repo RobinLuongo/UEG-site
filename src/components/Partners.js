@@ -10,8 +10,12 @@ export default function Partners() {
                     <img className="wwd-graphic" src={graphic} />
                 </div>
                 <div>
-                    <h2 className="content-title">From computers to coaches - we've got you covered</h2>
-                    <p className="content-text">User experience lean startup launch party. Infographic seed round innovator A/B testing iPad niche market. Stealth infographic advisor creative equity business-to-consumer. Hypotheses gen-z virality. Disruptive ecosystem MVP. Series A financing termsheet business-to-consumer hypotheses iteration sales low hanging fruit creative partnership accelerator freemium stealth startup. </p>
+                    <h2 className="content-title">Connect With Our Premier Network of Industry Partners</h2>
+                    <p className="content-text">From computers to coaches - we’ve got you covered. We connect you to the industry partnerships you need to build and sustain your program. Our partners work at every level of the esports pipeline, providing support in facilities, hardware and peripherals, recruitment, coaching, league membership, broadcasting and other areas crucial to your esports launch.
+                    </p>
+                    <p className="content-text">
+                    Our partners commit to providing exclusive services and rates to any schools that work with Uni Esports.
+                    </p>
                 </div>
             </div>
         </div>
