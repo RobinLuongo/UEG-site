@@ -1,6 +1,6 @@
 import React from 'react';
 import './WhoWeAre.css';
-import Atlas from '../content/images/atlas.jpeg'
+import Atlas from '../content/images/headshots/atlas.jpeg'
 
 export default function WhoWeAre() {
     return (
