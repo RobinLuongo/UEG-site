@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/UEG-site/static/css/main.25dec7a3.chunk.css",
+    "main.css": "/UEG-site/static/css/main.a54e829a.chunk.css",
     "main.js": "/UEG-site/static/js/main.bfb28dba.chunk.js",
     "main.js.map": "/UEG-site/static/js/main.bfb28dba.chunk.js.map",
     "runtime~main.js": "/UEG-site/static/js/runtime~main.fffe5f17.js",
@@ -8,9 +8,9 @@
     "static/js/2.26394fb9.chunk.js": "/UEG-site/static/js/2.26394fb9.chunk.js",
     "static/js/2.26394fb9.chunk.js.map": "/UEG-site/static/js/2.26394fb9.chunk.js.map",
     "index.html": "/UEG-site/index.html",
-    "precache-manifest.0d0133e03196849dcc906ddd3b307fbb.js": "/UEG-site/precache-manifest.0d0133e03196849dcc906ddd3b307fbb.js",
+    "precache-manifest.20c46f992d2184adc4e92513df53aee6.js": "/UEG-site/precache-manifest.20c46f992d2184adc4e92513df53aee6.js",
     "service-worker.js": "/UEG-site/service-worker.js",
-    "static/css/main.25dec7a3.chunk.css.map": "/UEG-site/static/css/main.25dec7a3.chunk.css.map",
+    "static/css/main.a54e829a.chunk.css.map": "/UEG-site/static/css/main.a54e829a.chunk.css.map",
     "static/media/alex.jpeg": "/UEG-site/static/media/alex.8792f129.jpeg",
     "static/media/atlas.jpeg": "/UEG-site/static/media/atlas.31912fea.jpeg",
     "static/media/calvin.jpeg": "/UEG-site/static/media/calvin.da406bfc.jpeg",
