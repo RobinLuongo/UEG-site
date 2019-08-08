@@ -1,5 +1,62 @@
 .who-we-are {
-    height: 500px;
     background-color: #f3f5f7;
-    padding-top: 15px;
+    padding: 30px 0px;
+}
+
+.who-we-are .content-title {
+    text-align: center;
+}
+
+.who-we-are .two-column {
+    margin: 20px 20px;
+}
+
+.bio-container {
+    display: flex;
+}
+
+.bio-container.left-column, .bio-container.right-column {
+    width: 50%
+}
+
+.bio-container.left-column {
+    margin-right: 35px;
+}
+
+.bio-container.right-column .bio-content {
+    order: 2;
+}
+
+.bio-container.left-column .bio-content {
+    margin-right: 15px;
+}
+
+.bio-container.right-column .bio-content {
+    margin-left: 15px;
+}
+
+.bio-container.left-column .bio-name {
+    float: right;
+    align-self: flex-end;
+}
+
+.bio-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.bio-name {
+    font-size: 17px;
+    font-weight: 500;
+    color: #066b98;
+}
+
+.bio-text {
+    color: #666;
+}
+
+.bio-image {
+    width: 173px;
+    height: 200px;
+    min-width: 173px;
 }

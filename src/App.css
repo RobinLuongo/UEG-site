@@ -30,3 +30,7 @@
 .column-left {
     margin-right: 20px;
 }
+
+input, textarea {
+    font: inherit;
+}
