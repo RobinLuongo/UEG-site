@@ -18,9 +18,10 @@
     width: 150%;
     height: 150%;
     top: -50%;
+    left: -50%;
     z-index: -1;
     background: url("../content/images/hero.jpg") 0 0 repeat;
-    transform: scaleX(-1);
+    transform: rotate(180deg);
     background-size: cover;
 }
 

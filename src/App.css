@@ -34,3 +34,18 @@
 input, textarea {
     font: inherit;
 }
+
+/* .ReactModal__Body--open {
+    overflow: hidden;
+} */
+
+.ReactModal__Overlay {
+    z-index: 9000;
+}
+
+.ReactModal__Content {
+    z-index: 9001;
+    width: 50%;
+    margin: auto;
+    height: fit-content;
+}

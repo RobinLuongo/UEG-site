@@ -9,10 +9,13 @@
 .hero-content-title {
     font-size: 54px;
     font-weight: 500;
+    width: 80%;
 }
 
 .hero-content-teaser {
+    font-size: 17px;
     font-weight: 500;
+    width: 80%;
 }
 
 .download-link {
