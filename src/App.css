@@ -1,6 +1,6 @@
 .hero {
-    height: 630px;
-    background-color: #102b3e;
+    height: 610px;
+    background-color: #0486d1;
     background-image: url("./content/images/hero.jpg");
     background-size: cover;
     background-position: center;
@@ -28,7 +28,7 @@
 }
 
 .column-left {
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 input, textarea {
@@ -48,4 +48,21 @@ input, textarea {
     width: 50%;
     margin: auto;
     height: fit-content;
+}
+
+@media(max-width: 1200px) {
+    .hero {
+        height: 710px;
+    }
+}
+
+@media(max-width: 900px) {
+  .two-column {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .column-left {
+      margin-right: 0px;
+  }
 }

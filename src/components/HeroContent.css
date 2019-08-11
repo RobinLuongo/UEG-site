@@ -10,6 +10,7 @@
     font-size: 54px;
     font-weight: 500;
     width: 80%;
+    margin-top: 10px;
 }
 
 .hero-content-teaser {
@@ -37,4 +38,10 @@
 
 .download-link > a:hover {
     background-color: #0166a0;
+}
+
+@media(max-width: 900px) {
+    .hero-content-title {
+        font-size: 40px;
+    }
 }

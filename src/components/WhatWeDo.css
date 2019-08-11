@@ -1,6 +1,10 @@
 .what-we-do {
     background-color: #f3f5f7;
-    padding-top: 15px;
+    padding: 35px 0px;
+}
+
+.what-we-do.content-title {
+  margin-bottom: 40px;
 }
 
 .wwd-graphic {
