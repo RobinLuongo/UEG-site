@@ -14,7 +14,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && COPY \"CNAME\" \"./build/CNAME\"",
     "deploy": "gh-pages --git git -d build"
   },
   "eslintConfig": {
@@ -32,5 +32,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://RobinLuongo.github.io"
+  "homepage": "www.uniesportsgroup.com"
 }
