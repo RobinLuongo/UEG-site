@@ -36,6 +36,11 @@ export default function Contact() {
                         </div>
                     </form>
                 </div>
+                <div className="contact-info">
+                    <span>
+                        contact@uniesportsgroup.com
+                    </span>
+                </div>
             </div>
         </div>
     )
