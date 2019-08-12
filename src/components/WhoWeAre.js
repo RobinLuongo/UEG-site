@@ -1,13 +1,13 @@
 import React from 'react';
 import './WhoWeAre.css';
-import atlas from '../content/images/headshots/atlas.jpeg';
-import jesse from '../content/images/headshots/jesse.jpeg';
-import alex from '../content/images/headshots/alex.jpeg';
-import calvin from '../content/images/headshots/calvin.jpeg';
-import kyawt from '../content/images/headshots/kyawt.jpg';
-import suresh from '../content/images/headshots/suresh.jpg';
-import matthew from '../content/images/headshots/matthew.jpg';
-import robin from '../content/images/headshots/robin.jpg';
+// import atlas from '../content/images/headshots/atlas.jpeg';
+// import jesse from '../content/images/headshots/jesse.jpeg';
+// import alex from '../content/images/headshots/alex.jpeg';
+// import calvin from '../content/images/headshots/calvin.jpeg';
+// import kyawt from '../content/images/headshots/kyawt.jpg';
+// import suresh from '../content/images/headshots/suresh.jpg';
+// import matthew from '../content/images/headshots/matthew.jpg';
+// import robin from '../content/images/headshots/robin.jpg';
 
 export default function WhoWeAre() {
     return (
@@ -64,7 +64,7 @@ export default function WhoWeAre() {
                 </div>
                 <div className="bio-container right-column">
                     <div className="bio-content">
-                        <div className="bio-name">Atlas Tanguay, Director of Operations</div>
+                        <div className="bio-name">Atlas Tanguay, Client Services Manager</div>
                         <p className="bio-text">With a background in behavioral healthcare management, Atlas brings experience facilitating communication between private and institutional stakeholders. At Uni, Atlas manages client workflows to ensure programs are developed on time, to standard, and aligned with your vision. A life-long gamer, he is passionate about manifesting the future of collegiate esports alongside our member institutions. </p>
                     </div>
                 </div>

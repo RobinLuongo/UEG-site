@@ -35,6 +35,10 @@ input, textarea {
     font: inherit;
 }
 
+.bold {
+    font-weight: 500;
+}
+
 /* .ReactModal__Body--open {
     overflow: hidden;
 } */

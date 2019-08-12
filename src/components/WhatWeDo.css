@@ -3,6 +3,11 @@
     padding: 35px 0px;
 }
 
+.what-we-do .column-left {
+  display: flex;
+  flex-direction: column;
+}
+
 .what-we-do.content-title {
   margin-bottom: 40px;
 }
@@ -15,4 +20,23 @@
 .what-we-do .content-text:last-child {
   margin-top: 30px;
   font-weight: 500;
+}
+
+.what-we-do .download-link {
+  color: white;
+  font-weight: 500;
+  align-self: center;
+}
+
+.what-we-do .download-link a {
+  text-decoration: none;
+  background-color: #1caadd;
+}
+
+.what-we-do .download-link a:hover {
+  background-color: #0192ca;
+}
+
+.what-we-do .download-link a:visited {
+  color: inherit;
 }
