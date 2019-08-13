@@ -43,5 +43,6 @@
 @media(max-width: 900px) {
     .hero-content-title {
         font-size: 40px;
+        width: 100%;
     }
 }

@@ -68,4 +68,12 @@
     .bio-name {
         align-self: auto !important;
     }
+
+    .bio-container.right-column .bio-name {
+        text-align: left;
+    }
+
+    .bio-container.right-column .bio-text {
+        text-align: left;
+    }
 }

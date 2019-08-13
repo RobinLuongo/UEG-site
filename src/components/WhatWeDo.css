@@ -1,11 +1,20 @@
 .what-we-do {
     background-color: #f3f5f7;
-    padding: 35px 0px;
+    padding: 35px 0px 50px 0px;
 }
 
 .what-we-do .column-left {
   display: flex;
   flex-direction: column;
+}
+.graphic-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.graphic-container img {
+  align-self: center;
 }
 
 .what-we-do.content-title {
@@ -47,4 +56,20 @@
 
 .what-we-do .download-link a:visited {
   color: inherit;
+}
+
+@media(max-width: 1200px) {
+  .wwd-graphic {
+      height: 300px;
+  }
+}
+
+@media(max-width: 900px) {
+  .wwd-graphic {
+    height: 200px;
+  }
+
+  .graphic-container {
+    display: none;
+  }
 }

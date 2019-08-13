@@ -22,7 +22,7 @@ export default function WhatWeDo() {
                         </a>
                     </span>
                 </div>
-                <div>
+                <div className="graphic-container">
                     <img className="wwd-graphic" src={graphic} />
                 </div>
             </div>

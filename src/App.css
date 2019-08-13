@@ -58,6 +58,10 @@ input, textarea {
     .hero {
         height: 710px;
     }
+
+    .wwd-graphic {
+        height: 300px;
+    }
 }
 
 @media(max-width: 900px) {
@@ -69,4 +73,20 @@ input, textarea {
   .column-left {
       margin-right: 0px;
   }
+
+  .wwd-graphic {
+    height: 200px;
+  } 
+}
+
+@media(max-width: 450px) {
+    .hero {
+        height: 770px;
+    }
+}
+
+@media(max-width: 365px) {
+    .hero {
+        height: 920px;
+    }
 }

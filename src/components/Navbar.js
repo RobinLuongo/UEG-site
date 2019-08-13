@@ -7,15 +7,17 @@ export default function Navbar() {
     listenForScroll();
 
     const [scrolled, setScrolled] = useState("");
+    const [mobile, setMobile] = useState("");
 
     const sections = ["What we do", "Partners", "Who we are", "Contact"]
 
     return (
-        <div className={scrolled + " nav-wrapper"}>
+        <div className={scrolled + " nav-wrapper " + mobile}>
             <div className="container">
                 <div className="navbar">
+                    <div>
                     {
-                        scrolled ?
+                        scrolled || mobile ?
                         <a className="logo-link" href="#">
                             <img className="logo" src={logoBlue} alt="logo" />
                         </a>
@@ -24,12 +26,18 @@ export default function Navbar() {
                             <img className="logo" src={logoWhite} alt="logo"/>
                         </a>
                     }
+                    <div className="mobile-icon" onClick={handleClick}>
+                        <div className="icon-line"></div>
+                        <div className="icon-line"></div>
+                        <div className="icon-line"></div>
+                    </div>
+                    </div>
                     <ul className="nav-list">
                     {
                         sections.map((section, i) => {
                             return (
                                 <li className="nav-link" key={i}>
-                                    <a onClick={(e) => scrollTo(e, section)}>
+                                    <a onClick={(e) => {scrollTo(e, section); handleClick(e)}}>
                                     {section}
                                     </a>
                                 </li>
@@ -79,5 +87,15 @@ export default function Navbar() {
             left: 0,
             behavior: 'smooth'
         })
+    }
+
+    function handleClick(e) {
+        if (!mobile) {
+            setMobile("mobile-expanded");
+            document.querySelector("body").style.overflow = "hidden";
+        } else {
+            setMobile("");
+            document.querySelector("body").style.overflow = "auto";
+        }
     }
 }

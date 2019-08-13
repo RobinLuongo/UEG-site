@@ -30,13 +30,13 @@ export default function WhoWeAre() {
             <div className="container two-column">
                 <div className="bio-container left-column">
                     <div className="bio-content">
-                        <div className="bio-name">Alex McNeil, CEO</div>
+                        <div className="bio-name">Alex McNeil, President & Co-founder</div>
                         <p className="bio-text">Alex has bootstrapped two successful businesses in the education space, overseeing them from startup to multiple employee exits. He holds an MA from San Francisco State in political theory, and cares deeply about issues of equity and mental health in education. At Uni, Alex coordinates efforts to build the first generation of best-in-class collegiate esports programs. </p>
                     </div>
                 </div>
                 <div className="bio-container right-column">
                     <div className="bio-content">
-                        <div className="bio-name">Jesse Bodony, COO</div>
+                        <div className="bio-name">Jesse Bodony, CEO & Co-founder</div>
                         <p className="bio-text">Having captained the U23 division of the Colorado Rapids MLS team and consistently reached grandmaster in both Starcraft II and Hearthstone, Jesse treads the line between the worlds of traditional athletics and esports. At Uni, Jesse focuses on creating best-practice approaches to building out esports programs in athletics departments. </p>
                     </div>
                 </div>
@@ -44,13 +44,13 @@ export default function WhoWeAre() {
             <div className="container two-column">
                 <div className="bio-container left-column">
                     <div className="bio-content">
-                        <div className="bio-name">Kyawt Thiri Nyunt, CDO</div>
+                        <div className="bio-name">Kyawt Thiri Nyunt, Head of Diversity & Equity</div>
                         <p className="bio-text">Kyawt is an internationally-recognized short-film artist who holds an MBA from Dominican University’s school of business. Her work has focused on issues of representation, belonging, and  diversity in her native country of Myanmar. She is an avid gamer who leads Uni’s diversity and inclusion efforts as Chief Diversity Officer, where she helps build programs that address the issues of discrimination and exclusion endemic to esports. </p>
                     </div>
                 </div>
                 <div className="bio-container right-column">
                     <div className="bio-content">
-                        <div className="bio-name">Robin Luongo, CTO</div>
+                        <div className="bio-name">Robin Luongo, Head of Technology</div>
                         <p className="bio-text">Robin learned about programming at the same time he started gaming, at age six, when his dad worked as a developer for the iconic software company Broderbund. As a former software engineer and network and systems administrator, Robin fills the role of CTO at Uni, helping schools to understand the all-important technological side of esports and program development.</p>
                     </div>
                 </div>
