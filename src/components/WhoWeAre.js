@@ -22,7 +22,7 @@ export default function WhoWeAre() {
                 </div>
                 <div className="bio-container right-column">
                     <div className="bio-content">
-                        <div className="bio-name">Suresh Apavoo, Advisor</div>
+                        <div className="bio-name">Suresh Appavoo, Advisor</div>
                         <p className="bio-text">Suresh Appavoo has over 18 years in diversity leadership roles in higher education and currently serves as the Chief Diversity and Inclusivity Officer for Southern Oregon University. Suresh joins Uni with the goal of helping steer esports toward a more equitable and diverse future on college and university campuses across the United States.</p>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ export default function WhoWeAre() {
                 <div className="bio-container right-column">
                     <div className="bio-content">
                         <div className="bio-name">Jesse Bodony, CEO & Co-founder</div>
-                        <p className="bio-text">Having captained the U23 division of the Colorado Rapids MLS team and consistently reached grandmaster in both Starcraft II and Hearthstone, Jesse treads the line between the worlds of traditional athletics and esports. At Uni, Jesse focuses on creating best-practice approaches to building out esports programs in athletics departments. </p>
+                        <p className="bio-text">Jesse treads the line between esports and athletic administration and leadership. Having captained the U23 division of the Colorado Rapids MLS team, led the implementation of Dominican University’s esports program, and gained extensive experience in administration and academic program creation, he understands the process of launching a program from multiple angles. At Uni, Jesse leads internal operations and organizational strategy. He is an avid gamer and former Starcraft II grandmaster. </p>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@ export default function WhoWeAre() {
                 </div>
                 <div className="bio-container right-column">
                     <div className="bio-content">
-                        <div className="bio-name">Atlas Tanguay, Client Services Manager</div>
+                        <div className="bio-name">Atlas Tanguay, Director of Communications</div>
                         <p className="bio-text">With a background in behavioral healthcare management, Atlas brings experience facilitating communication between private and institutional stakeholders. At Uni, Atlas manages client workflows to ensure programs are developed on time, to standard, and aligned with your vision. A life-long gamer, he is passionate about manifesting the future of collegiate esports alongside our member institutions. </p>
                     </div>
                 </div>

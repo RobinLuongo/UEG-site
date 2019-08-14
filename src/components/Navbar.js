@@ -37,7 +37,7 @@ export default function Navbar() {
                         sections.map((section, i) => {
                             return (
                                 <li className="nav-link" key={i}>
-                                    <a onClick={(e) => {scrollTo(e, section); handleClick(e)}}>
+                                    <a onClick={(e) => {scrollTo(e, section); if(mobile){handleClick(e)}}}>
                                     {section}
                                     </a>
                                 </li>
