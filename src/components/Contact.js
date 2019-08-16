@@ -6,7 +6,7 @@ export default function Contact() {
         <div className="contact content-border" id="partners">
             <div className="container">
                 <h2 className="content-title">How can we help?</h2>
-                <p className="content-text">Our dedicated team is ready to respond. Please reach out with any questions or service inquiries.</p>
+                <p className="content-text">Our dedicated team is ready to respond. Please reach out with any questions or service inquiries .</p>
                 <h3></h3>
                 <div id="mc_embed_signup">
                     <form action="https://gmail.us3.list-manage.com/subscribe/post?u=9dcb1306505c56bb56d2794f6&amp;id=ca7fb407a4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank">
