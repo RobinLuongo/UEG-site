@@ -19,7 +19,7 @@ export default function Partners() {
                     <p className="content-text">From computers to coaches - we’ve got you covered. We connect you to the industry partnerships you need to build and sustain your program. Our partners work at every level of the esports pipeline, providing support in facilities, hardware and peripherals, recruitment, coaching, league membership, broadcasting and other areas crucial to your esports launch.
                     </p>
                     <p className="content-text">
-                    Our partners commit to providing exclusive services and rates to any schools that work with Uni Esports.
+                    Our partners commit to providing exclusive services and rates to any schools that work with Uni Esports. 
                     </p>
                 </div>
             </div>
