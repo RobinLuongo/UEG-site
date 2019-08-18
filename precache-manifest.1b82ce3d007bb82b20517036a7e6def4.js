@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a5982ece10de5b140863811786c8e34",
+    "revision": "60fef85838591a391e583c6d5ec3da0c",
     "url": "/index.html"
   },
   {
-    "revision": "a1a13b43f8beb0bcee93",
-    "url": "/static/css/main.b5436d45.chunk.css"
+    "revision": "d99464051128521835e0",
+    "url": "/static/css/main.66a7065b.chunk.css"
   },
   {
-    "revision": "602bb8bc150014373e23",
-    "url": "/static/js/2.304a165f.chunk.js"
+    "revision": "118f036e5d0ad073a7e3",
+    "url": "/static/js/2.6baf54d7.chunk.js"
   },
   {
-    "revision": "a1a13b43f8beb0bcee93",
-    "url": "/static/js/main.4cd3d534.chunk.js"
+    "revision": "d99464051128521835e0",
+    "url": "/static/js/main.fc3a66db.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a728823e30b4df31edbf7d391101d7b9",
     "url": "/static/media/UEG_Services.a728823e.pdf"
+  },
+  {
+    "revision": "a942c1159a6d64b5386631485c375a68",
+    "url": "/static/media/UEG_White_Paper.a942c115.pdf"
   },
   {
     "revision": "ea337ee8978e893f262d8751b9eb9bf4",
