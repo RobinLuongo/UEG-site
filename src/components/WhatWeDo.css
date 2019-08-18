@@ -34,11 +34,10 @@
 .what-we-do .download-link {
   color: white;
   font-weight: 500;
-  align-self: center;
+  width: fit-content;
 }
 
 .what-we-do .download-link a {
-  text-decoration: none;
   background-color: #1caadd;
 }
 
@@ -71,5 +70,9 @@
 
   .graphic-container {
     display: none;
+  }
+
+  .what-we-do .download-link {
+    align-self: center;
   }
 }

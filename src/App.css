@@ -54,6 +54,14 @@ input, textarea {
     height: fit-content;
 }
 
+.download-link a {
+    text-decoration: none;
+}
+
+.download-link a:visited {
+    color: inherit;
+}
+
 @media(max-width: 1200px) {
     .hero {
         height: 710px;
