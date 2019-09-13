@@ -16,13 +16,13 @@ export default function WhoWeAre() {
             <div className="container two-column">
                 <div className="bio-container left-column">
                     <div className="bio-content">
-                        <div className="bio-name">Matthew Bronson, Advisor</div>
+                        <div className="bio-name">Matthew C. Bronson, PhD, Advisor</div>
                         <p className="bio-text">A veteran educator and higher ed consultant, Matthew has over 25 years of experience in higher education assessment and executive planning. He is currently an advisor to the UC Davis-based LibreText, the largest open educational resource (OER) initiative in the world. Matthew brings to Uni his deep experience with program design and a passion for charting the edge of innovation in higher education.</p>
                     </div>
                 </div>
                 <div className="bio-container right-column">
                     <div className="bio-content">
-                        <div className="bio-name">Suresh Appavoo, Advisor</div>
+                        <div className="bio-name">Suresh Appavoo, Ed.D, Advisor</div>
                         <p className="bio-text">Suresh Appavoo has over 18 years in diversity leadership roles in higher education and currently serves as the Chief Diversity and Inclusivity Officer for Southern Oregon University. Suresh joins Uni with the goal of helping steer esports toward a more equitable and diverse future on college and university campuses across the United States.</p>
                     </div>
                 </div>
