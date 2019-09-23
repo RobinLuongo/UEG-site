@@ -1,43 +1,27 @@
 import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, withRouter } from "react-router-dom";
+
 import './App.css';
 
-import ReactModal from 'react-modal';
-
 import Navbar from './components/Navbar';
-import WPModal from './components/WPModal';
-import HeroContent from './components/HeroContent';
-import WhatWeDo from './components/WhatWeDo';
-import Partners from './components/Partners';
-import WhoWeAre from './components/WhoWeAre';
-import Contact from './components/Contact';
+import Home from './components/Home';
+import Blog from './components/Blog';
+
+const NavWithLocation = withRouter(Navbar);
 
 function App() {
-  const [isOpen, setOpen] = useState(false)
+  const [navStyle, setNavStyle] = useState("");
 
   return (
-    <div>
-      <Navbar />
-      <WPModal
-        isOpen={isOpen}
-        closeModal={closeModal}
-      />
-      <HeroContent openModal={openModal}/>
-      <div className="hero content-border"></div>
-      <WhatWeDo />
-      <Partners />
-      <WhoWeAre />
-      <Contact />
-    </div>
+    <Router>
+      <div>
+        <NavWithLocation altStyle={navStyle}/>
+        <Route path="/" exact render={(props) => <Home {...props} setNavStyle={setNavStyle} />} />
+        <Route path="/blog/" render={(props) => <Blog {...props} setNavStyle={setNavStyle} />} />
+      </div>
+    </Router>
   );
 
-  function openModal(e) {
-    e.preventDefault();
-    setOpen(true)
-  }
-
-  function closeModal() {
-    setOpen(false)
-  }
 }
 
 export default App;

@@ -7,24 +7,23 @@ export default function Contact() {
             <div className="container">
                 <h2 className="content-title">How can we help?</h2>
                 <p className="content-text">Our dedicated team is ready to respond. Please reach out with any questions or service inquiries .</p>
-                <h3></h3>
                 <div id="mc_embed_signup">
                     <form action="https://gmail.us3.list-manage.com/subscribe/post?u=9dcb1306505c56bb56d2794f6&amp;id=ca7fb407a4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank">
                         <div id="mc_embed_signup_scroll">
                             <div className="mc-field-group">
-                                <label for="mce-EMAIL">Email Address <span className="asterisk">*</span></label>
+                                <label htmlFor="mce-EMAIL">Email Address <span className="asterisk">*</span></label>
                                 <input type="email" name="EMAIL" className="contact-input required email" id="mce-EMAIL" />
                             </div>
                             <div className="mc-field-group">
-                                <label for="mce-FNAME">First Name </label>
+                                <label htmlFor="mce-FNAME">First Name </label>
                                 <input type="text" name="FNAME" className="contact-input" id="mce-FNAME" />
                             </div>
                             <div className="mc-field-group">
-                                <label for="mce-LNAME">Last Name </label>
+                                <label htmlFor="mce-LNAME">Last Name </label>
                                 <input type="text" name="LNAME" className="contact-input" id="mce-LNAME" />
                             </div>
                             <div className="mc-field-group">
-	                            <label for="mce-MMERGE5">Message </label>
+	                            <label htmlFor="mce-MMERGE5">Message </label>
                                 <textarea form="mc-embedded-subscribe-form" rows="5" cols="33" name="MMERGE5" className="contact-input" id="mce-MMERGE5"/>
                             </div>
                             <div id="mce-responses" className="clear">

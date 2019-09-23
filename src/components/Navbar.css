@@ -37,6 +37,8 @@
 .nav-link > a {
     padding: 10px 20px;
     line-height: 45px;
+    text-decoration: none;
+    color: inherit;
 }
 
 .nav-link:hover {

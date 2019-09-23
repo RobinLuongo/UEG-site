@@ -12,7 +12,7 @@ export default function Partners() {
         <div className="partners content-border" id="partners">
             <div className="container two-column">
                 <div className="column-left">
-                    <img className="wwd-graphic" src={graphic} />
+                    <img className="wwd-graphic" src={graphic} alt="esports partners graphic"/>
                 </div>
                 <div>
                     <h2 className="content-title">Connect With Our Premier Network of Industry Partners</h2>
@@ -24,10 +24,10 @@ export default function Partners() {
                 </div>
             </div>
             <div className="partners-list">
-                <img src={logo_vm}></img>
-                <img src={logo_msi} className="msi-logo"></img>
-                <img src={logo_gs}></img>
-                <img src={logo_wa}></img>
+                <img src={logo_vm} alt="logo for velocity micro"></img>
+                <img src={logo_msi} className="msi-logo" alt="logo for MSI"></img>
+                <img src={logo_gs} alt="logo for gamer sensei"></img>
+                <img src={logo_wa} alt="logo for wooter apparel"></img>
             </div>
         </div>
     )

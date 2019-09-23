@@ -17,13 +17,13 @@ export default function WhatWeDo() {
                     </p>
                     <span className="download-link">
                         <a href={servicesOverview} download>
-                            <img src={download} />
+                            <img src={download} alt="download uni esports group consulting services overview"/>
                             Services Overview
                         </a>
                     </span>
                 </div>
                 <div className="graphic-container">
-                    <img className="wwd-graphic" src={graphic} />
+                    <img className="wwd-graphic" src={graphic} alt="uni esports group what we do graphic"/>
                 </div>
             </div>
         </div>
