@@ -45,11 +45,6 @@ export default function Navbar(props) {
                             )
                         })
                     }
-                    <li className="nav-link">
-                        <Link to="/blog/" onClick={(e) => {if(mobile) handleClick(e)}}>
-                            Blog
-                        </Link>
-                    </li>
                     </ul>
                 </div>
             </div>

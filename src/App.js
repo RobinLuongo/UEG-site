@@ -17,7 +17,6 @@ function App() {
       <div>
         <NavWithLocation altStyle={navStyle}/>
         <Route path="/" exact render={(props) => <Home {...props} setNavStyle={setNavStyle} />} />
-        <Route path="/blog/" render={(props) => <Blog {...props} setNavStyle={setNavStyle} />} />
       </div>
     </Router>
   );
