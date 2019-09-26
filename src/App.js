@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, withRouter } from "react-router-dom";
+import { BrowserRouter as Router, Route, withRouter, Switch } from "react-router-dom";
 
 import './App.css';
 
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import Blog from './components/Blog';
+import PriceTool from './components/PriceTool'
 
 const NavWithLocation = withRouter(Navbar);
 
@@ -16,7 +16,10 @@ function App() {
     <Router>
       <div>
         <NavWithLocation altStyle={navStyle}/>
-        <Route path="/" exact render={(props) => <Home {...props} setNavStyle={setNavStyle} />} />
+        <Switch>
+          <Route path="/price-tool/" render={(props) => <PriceTool {...props} setNavStyle={setNavStyle} />} />
+          <Route path="/" render={(props) => <Home {...props} setNavStyle={setNavStyle} />} />
+        </Switch>
       </div>
     </Router>
   );
