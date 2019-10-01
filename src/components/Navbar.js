@@ -46,7 +46,7 @@ export default function Navbar(props) {
                         })
                     }
                     <li className="nav-link">
-                        <Link to="/blog/" onClick={(e) => {if(mobile) handleClick(e)}}>
+                        <Link to="/blog/blog1" onClick={(e) => {if(mobile) handleClick(e)}}>
                             Blog
                         </Link>
                     </li>
@@ -69,8 +69,6 @@ export default function Navbar(props) {
 
     function scrollTo(e, id) {
         e.preventDefault();
-
-        console.log(props)
         
         if (props.location !== "/") {
             props.history.push("/");
@@ -114,7 +112,7 @@ export default function Navbar(props) {
               }
             };
             scroll();
-          }
+        }
     }
 
     function handleClick(e) {

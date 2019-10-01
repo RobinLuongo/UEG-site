@@ -8,6 +8,7 @@ import Home from './components/Home';
 import Blog from './components/Blog';
 
 const NavWithLocation = withRouter(Navbar);
+const BlogWithLocation = withRouter(Blog);
 
 function App() {
   const [navStyle, setNavStyle] = useState("");
@@ -17,7 +18,7 @@ function App() {
       <div>
         <NavWithLocation altStyle={navStyle}/>
         <Route path="/" exact render={(props) => <Home {...props} setNavStyle={setNavStyle} />} />
-        <Route path="/blog/" render={(props) => <Blog {...props} setNavStyle={setNavStyle} />} />
+        <Route path="/blog/" render={(props) => <BlogWithLocation {...props} setNavStyle={setNavStyle} />} />
       </div>
     </Router>
   );
