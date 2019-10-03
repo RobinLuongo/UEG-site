@@ -34,6 +34,9 @@ export default function Blog(props) {
                 <div className="title-container">
                     <div>
                         <h1>{content.title}</h1>
+                        <div className="meta-info content-text">
+                            <span>{content.meta.author} - {content.meta.date}</span>
+                        </div>
                         <img src={content.image.src} className="title-image" style={{"display": "inline"}}></img>
                         <h2>{content.subTitle}</h2>
                     </div>
@@ -44,7 +47,7 @@ export default function Blog(props) {
                         <h3>{section.heading}</h3>
                         {section.paragraphs.map((paragraph, key) => {
                             return (
-                            <div key={key}>
+                            <div key={key} className="paragraph-text">
                                 <div>{paragraph.tag}</div>
                                 <p>{paragraph.body}</p>
                             </div>
