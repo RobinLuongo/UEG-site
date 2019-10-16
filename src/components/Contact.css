@@ -26,15 +26,9 @@
 }
 
 .contact-input {
-    padding: 5px 10px;
-    border-radius: 2px;
-    display: block;
     margin: 5px 0px 10px 0px;
     width: 500px;
     max-width: 100%;
-    border: none;
-    height: 35px;
-    color: #666;
 }
 
 .mc-field-group {

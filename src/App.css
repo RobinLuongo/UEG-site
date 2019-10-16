@@ -62,6 +62,23 @@ input, textarea {
     color: inherit;
 }
 
+/* forms */
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.input-normal {
+    padding: 5px 8px;
+    border-radius: 2px;
+    display: block;
+    border: none;
+    height: 35px;
+    color: #666;
+}
+
 @media(max-width: 1200px) {
     .hero {
         height: 710px;

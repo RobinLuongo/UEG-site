@@ -1,3 +1,56 @@
 .price-tool > .container {
     margin-top: 100px;
 }
+
+#space_choice {
+    padding-left: 5px;
+}
+
+.price-tool input, .price-tool select {
+    border: 1px solid black;
+    width: 225px;
+}
+
+.pt-input-container {
+    margin-top: 30px;
+}
+
+.pt-input-container label {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+form .pt-input-container {
+    display: flex;
+}
+
+.grey-bar {
+    display: block;
+    height: 1px;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    flex: 2;
+    margin: 0px 50px;
+    align-self: center;
+    min-width: 20px;
+}
+
+.input-description {
+    align-self: center;
+}
+
+.form-submit {
+    background-color: #066b98;
+    padding: 15px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    color: white;
+    margin: auto;
+    width: auto !important;
+}
+
+.form-submit:hover {
+    background-color: #0166a0;
+}

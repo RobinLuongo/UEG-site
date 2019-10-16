@@ -12,19 +12,19 @@ export default function Contact() {
                         <div id="mc_embed_signup_scroll">
                             <div className="mc-field-group">
                                 <label htmlFor="mce-EMAIL">Email Address <span className="asterisk">*</span></label>
-                                <input type="email" name="EMAIL" className="contact-input required email" id="mce-EMAIL" />
+                                <input type="email" name="EMAIL" className="contact-input input-normal required email" id="mce-EMAIL" />
                             </div>
                             <div className="mc-field-group">
                                 <label htmlFor="mce-FNAME">First Name </label>
-                                <input type="text" name="FNAME" className="contact-input" id="mce-FNAME" />
+                                <input type="text" name="FNAME" className="contact-input input-normal" id="mce-FNAME" />
                             </div>
                             <div className="mc-field-group">
                                 <label htmlFor="mce-LNAME">Last Name </label>
-                                <input type="text" name="LNAME" className="contact-input" id="mce-LNAME" />
+                                <input type="text" name="LNAME" className="contact-input input-normal" id="mce-LNAME" />
                             </div>
                             <div className="mc-field-group">
 	                            <label htmlFor="mce-MMERGE5">Message </label>
-                                <textarea form="mc-embedded-subscribe-form" rows="5" cols="33" name="MMERGE5" className="contact-input" id="mce-MMERGE5"/>
+                                <textarea form="mc-embedded-subscribe-form" rows="5" cols="33" name="MMERGE5" className="contact-input input-normal" id="mce-MMERGE5"/>
                             </div>
                             <div id="mce-responses" className="clear">
                                 <div className="response" id="mce-error-response" style={{display:"none"}}></div>
