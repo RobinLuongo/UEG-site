@@ -1,5 +1,5 @@
 .hero {
-    height: 610px;
+    height: 580px;
     background-color: #0486d1;
     background-image: url("./content/images/hero.jpg");
     background-size: cover;
@@ -81,7 +81,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 @media(max-width: 1200px) {
     .hero {
-        height: 710px;
+        height: 616px;
     }
 
     .wwd-graphic {
