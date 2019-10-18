@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './PriceTool.css';
-
+import axios from 'axios';
 
 export default function PriceTool(props) {
     props.setNavStyle("scrolled")
@@ -9,6 +9,7 @@ export default function PriceTool(props) {
         <div className="price-tool">
             <div className="container">
                 <h1 className="content-title">Get your customized UEG Esports Program Model Report</h1>
+                <p className="content-text bold">The average cost of starting a collegiate esports program is negligible compared to the projected revenue from increased recruitment and retention. Fill out the data below, and we will send you a customized report that gives you an idea of starting costs, and how much your institution stands to gain from a successful esports rollout.</p>
                 <div>
                     <Form></Form>
 
@@ -25,8 +26,12 @@ const Form = () => {
         engagement: 18.0,
         stations: 12,
         teamCount: 2,
-        spaceChoice: "Retrofitting Space"
+        spaceChoice: "Retrofitting Space",
+        email: "",
+        school: ""
     });
+
+    const [loadStatus, setLoadStatus] = useState("uninit")
 
     const handleChange = (e) => {
         e.preventDefault();
@@ -36,10 +41,27 @@ const Form = () => {
         })
     }
 
-    const {studentSize, tuition, engagement, stations, teamCount, spaceChoice} = values;
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        setLoadStatus("init");
+        axios.post('https://ueg-price-tool.herokuapp.com', values)
+            .then(res => {
+                console.log(res.status)
+                if (res.status == 200) {
+                    setLoadStatus("done")
+                } else {
+                    setLoadStatus("error")
+                }
+            })
+            .catch(err => {
+                setLoadStatus("error")
+            })
+    }
+
+    const {studentSize, tuition, engagement, stations, teamCount, spaceChoice, email, school} = values;
 
     return (
-        <form action="http://localhost:3000" method="post" target="" className="pt-form">
+        <form target="" className="pt-form" onSubmit={handleSubmit}>
             <div className="pt-input-container">
                 <div>
                     <label htmlFor="student_size">Student Body Size</label>
@@ -91,8 +113,29 @@ const Form = () => {
                 <hr className="grey-bar"></hr>
                 <div className="input-description content-text">The choice to construct a new building to house the program, or to retrofit an existing space</div>
             </div>
+            <div className="pt-input-container centered-inputs">
+                <span>
+                    <label htmlFor="email">Email Address</label>
+                    <input type="email" id="email" className="input-normal"  name="email" value={email} onChange={handleChange} required></input>
+                </span>
+                <span>
+                    <label htmlFor="school">School Name</label>
+                    <input type="school" id="school" className="input-normal"  name="school" value={school} onChange={handleChange} required></input>
+                </span>
+            </div>
             <div className="pt-input-container">
-                <input type="submit" value="Generate Report!" className="form-submit"></input>
+                {
+                    loadStatus === 'uninit' ? 
+                        <input type="submit" value="Generate Report" className="form-submit"></input>
+                        :
+                        loadStatus === 'init' ?
+                            <span className="lds-dual-ring"></span>
+                            :
+                            loadStatus === 'done' ?
+                                <span>Thank you! You will receive your report via email within 24 hours.</span>
+                                :
+                                <span>There was an error submitting the report. Please try again.</span>
+                }
             </div>
         </form>
     )

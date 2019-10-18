@@ -1,5 +1,9 @@
-.price-tool > .container {
-    margin-top: 100px;
+.price-tool {
+    padding: 100px 0px;
+}
+
+.price-tool .container {
+    margin-top: 45px;
 }
 
 #space_choice {
@@ -33,11 +37,36 @@ form .pt-input-container {
     flex: 2;
     margin: 0px 50px;
     align-self: center;
-    min-width: 20px;
+    min-width: 50px;
+    max-width: 50px;
 }
 
 .input-description {
     align-self: center;
+}
+
+.centered-inputs {
+    justify-content: center;
+}
+
+.pt-input-container.centered-inputs {
+    margin: 50px 0px;;
+}
+
+.centered-inputs span:first-child {
+    margin-right: 40px;
+}
+
+.pt-input-container.centered-inputs input {
+    width: 300px;
+}
+
+.pt-input-container:last-child > span, .pt-input-container:last-child > input {
+    margin: auto;
+}
+
+.pt-input-container:last-child > span {
+    color: #066b98;
 }
 
 .form-submit {
@@ -47,10 +76,37 @@ form .pt-input-container {
     cursor: pointer;
     display: flex;
     color: white;
-    margin: auto;
     width: auto !important;
+    border: none !important;
 }
 
 .form-submit:hover {
     background-color: #0166a0;
 }
+
+/* loading spinner */
+.lds-dual-ring {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 46px;
+    height: 46px;
+    margin: 1px;
+    border-radius: 50%;
+    border: 5px solid #066b98;
+    border-color: #066b98 transparent #066b98 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
