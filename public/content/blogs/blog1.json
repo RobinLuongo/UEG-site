@@ -1,0 +1,78 @@
+{
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales",
+    "subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales, risus at tristique vulputate, arcu tortor mollis erat, a congue augue erat at ex.",
+    "image": {
+        "src": "/content/images/esports/mouse.jpg",
+        "position": "inline"
+    },
+    "sections": [
+        {
+            "heading": "Nullam purus ligula, vestibulum ac massa.",
+            "paragraphs": [
+                {
+                    "tag": "Maecenas aliquet rutrum turpis eget lobortis",
+                    "body": "Suspendisse magna libero, sollicitudin et metus non, euismod sagittis urna. Nulla quis nisi tempor, volutpat ligula sed, sagittis enim. Curabitur non pharetra urna. Cras sit amet tincidunt lacus. Sed auctor lacus sit amet lectus sollicitudin, et cursus ipsum eleifend. Nam a massa maximus arcu tincidunt pharetra ut vel urna. Nulla facilisi. Donec fringilla lectus est, sit amet tincidunt enim pretium et. Phasellus sollicitudin ligula felis, et finibus est venenatis ut."
+                },
+                {
+                    "tag": "Maecenas aliquet rutrum turpis eget lobortis",
+                    "body": "Suspendisse magna libero, sollicitudin et metus non, euismod sagittis urna. Nulla quis nisi tempor, volutpat ligula sed, sagittis enim. Curabitur non pharetra urna. Cras sit amet tincidunt lacus. Sed auctor lacus sit amet lectus sollicitudin, et cursus ipsum eleifend. Nam a massa maximus arcu tincidunt pharetra ut vel urna. Nulla facilisi. Donec fringilla lectus est, sit amet tincidunt enim pretium et. Phasellus sollicitudin ligula felis, et finibus est venenatis ut."
+                },
+                {
+                    "tag": "Maecenas aliquet rutrum turpis eget lobortis",
+                    "body": "Suspendisse magna libero, sollicitudin et metus non, euismod sagittis urna. Nulla quis nisi tempor, volutpat ligula sed, sagittis enim. Curabitur non pharetra urna. Cras sit amet tincidunt lacus. Sed auctor lacus sit amet lectus sollicitudin, et cursus ipsum eleifend. Nam a massa maximus arcu tincidunt pharetra ut vel urna. Nulla facilisi. Donec fringilla lectus est, sit amet tincidunt enim pretium et. Phasellus sollicitudin ligula felis, et finibus est venenatis ut."
+                }
+            ],
+            "image": {
+                "src": "/content/images/esports/hand-keyboard.jpg",
+                "position": "block"
+            }
+        },
+        {
+            "heading": "Nullam purus ligula, vestibulum ac massa.",
+            "paragraphs": [
+                {
+                    "tag": "Maecenas aliquet rutrum turpis eget lobortis",
+                    "body": "Suspendisse magna libero, sollicitudin et metus non, euismod sagittis urna. Nulla quis nisi tempor, volutpat ligula sed, sagittis enim. Curabitur non pharetra urna. Cras sit amet tincidunt lacus. Sed auctor lacus sit amet lectus sollicitudin, et cursus ipsum eleifend. Nam a massa maximus arcu tincidunt pharetra ut vel urna. Nulla facilisi. Donec fringilla lectus est, sit amet tincidunt enim pretium et. Phasellus sollicitudin ligula felis, et finibus est venenatis ut."
+                },
+                {
+                    "tag": "Maecenas aliquet rutrum turpis eget lobortis",
+                    "body": "Suspendisse magna libero, sollicitudin et metus non, euismod sagittis urna. Nulla quis nisi tempor, volutpat ligula sed, sagittis enim. Curabitur non pharetra urna. Cras sit amet tincidunt lacus. Sed auctor lacus sit amet lectus sollicitudin, et cursus ipsum eleifend. Nam a massa maximus arcu tincidunt pharetra ut vel urna. Nulla facilisi. Donec fringilla lectus est, sit amet tincidunt enim pretium et. Phasellus sollicitudin ligula felis, et finibus est venenatis ut."
+                },
+                {
+                    "tag": "Maecenas aliquet rutrum turpis eget lobortis",
+                    "body": "Suspendisse magna libero, sollicitudin et metus non, euismod sagittis urna. Nulla quis nisi tempor, volutpat ligula sed, sagittis enim. Curabitur non pharetra urna. Cras sit amet tincidunt lacus. Sed auctor lacus sit amet lectus sollicitudin, et cursus ipsum eleifend. Nam a massa maximus arcu tincidunt pharetra ut vel urna. Nulla facilisi. Donec fringilla lectus est, sit amet tincidunt enim pretium et. Phasellus sollicitudin ligula felis, et finibus est venenatis ut."
+                }
+            ],
+            "image": {
+                "src": "/content/images/esports/hand-keyboard.jpg",
+                "position": "block"
+            }
+        },
+        {
+            "heading": "Nullam purus ligula, vestibulum ac massa.",
+            "paragraphs": [
+                {
+                    "tag": "Maecenas aliquet rutrum turpis eget lobortis",
+                    "body": "Suspendisse magna libero, sollicitudin et metus non, euismod sagittis urna. Nulla quis nisi tempor, volutpat ligula sed, sagittis enim. Curabitur non pharetra urna. Cras sit amet tincidunt lacus. Sed auctor lacus sit amet lectus sollicitudin, et cursus ipsum eleifend. Nam a massa maximus arcu tincidunt pharetra ut vel urna. Nulla facilisi. Donec fringilla lectus est, sit amet tincidunt enim pretium et. Phasellus sollicitudin ligula felis, et finibus est venenatis ut."
+                },
+                {
+                    "tag": "Maecenas aliquet rutrum turpis eget lobortis",
+                    "body": "Suspendisse magna libero, sollicitudin et metus non, euismod sagittis urna. Nulla quis nisi tempor, volutpat ligula sed, sagittis enim. Curabitur non pharetra urna. Cras sit amet tincidunt lacus. Sed auctor lacus sit amet lectus sollicitudin, et cursus ipsum eleifend. Nam a massa maximus arcu tincidunt pharetra ut vel urna. Nulla facilisi. Donec fringilla lectus est, sit amet tincidunt enim pretium et. Phasellus sollicitudin ligula felis, et finibus est venenatis ut."
+                },
+                {
+                    "tag": "Maecenas aliquet rutrum turpis eget lobortis",
+                    "body": "Suspendisse magna libero, sollicitudin et metus non, euismod sagittis urna. Nulla quis nisi tempor, volutpat ligula sed, sagittis enim. Curabitur non pharetra urna. Cras sit amet tincidunt lacus. Sed auctor lacus sit amet lectus sollicitudin, et cursus ipsum eleifend. Nam a massa maximus arcu tincidunt pharetra ut vel urna. Nulla facilisi. Donec fringilla lectus est, sit amet tincidunt enim pretium et. Phasellus sollicitudin ligula felis, et finibus est venenatis ut."
+                }
+            ],
+            "image": {
+                "src": "/content/images/esports/hand-keyboard.jpg",
+                "position": "block"
+            }
+        }
+    ],
+    "meta": {
+        "author": "Alex Mcneil",
+        "date": "September 30, 2019",
+        "description": "a blog post"
+    }
+}

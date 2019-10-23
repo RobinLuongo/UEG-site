@@ -1,37 +1,80 @@
-import React from 'react';
+import React, {useState} from 'react';
+import axios from 'axios';
 import './Contact.css';
 
 export default function Contact() {
+    const [values, setValues] = useState({
+        email: "",
+        firstName: "",
+        lastName: "",
+        message: ""
+    });
+
+    const [loadStatus, setLoadStatus] = useState("uninit")
+
+    const handleChange = (e) => {
+        e.preventDefault();
+        setValues({
+            ...values,
+            [e.target.name]: e.target.value
+        })
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        axios.post('https://ueg-price-tool.herokuapp.com/contact', values)
+            .then(res => {
+                if (res.status == 200) {
+                    setLoadStatus("done")
+                } else {
+                    setLoadStatus("error")
+                }
+            })
+            .catch(err => {
+                setLoadStatus("error")
+            })
+    }
+
+    const {email, firstName, lastName, message} = values;
+
     return (
         <div className="contact content-border" id="partners">
             <div className="container">
                 <h2 className="content-title">How can we help?</h2>
                 <p className="content-text">Our dedicated team is ready to respond. Please reach out with any questions or service inquiries .</p>
                 <div id="mc_embed_signup">
-                    <form action="https://gmail.us3.list-manage.com/subscribe/post?u=9dcb1306505c56bb56d2794f6&amp;id=ca7fb407a4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank">
+                    <form target="" className="validate" name="contact-form" onSubmit={handleSubmit}>
                         <div id="mc_embed_signup_scroll">
                             <div className="mc-field-group">
-                                <label htmlFor="mce-EMAIL">Email Address <span className="asterisk">*</span></label>
-                                <input type="email" name="EMAIL" className="contact-input input-normal required email" id="mce-EMAIL" />
+                                <label htmlFor="email">Email Address <span className="asterisk">*</span></label>
+                                <input value={email} onChange={handleChange} type="email" name="email" className="contact-input input-normal required email" id="email" required/>
                             </div>
                             <div className="mc-field-group">
-                                <label htmlFor="mce-FNAME">First Name </label>
-                                <input type="text" name="FNAME" className="contact-input input-normal" id="mce-FNAME" />
+                                <label htmlFor="first_name">First Name </label>
+                                <input value={firstName} onChange={handleChange} type="text" name="firstName" className="contact-input input-normal" id="first_name" required/>
                             </div>
                             <div className="mc-field-group">
-                                <label htmlFor="mce-LNAME">Last Name </label>
-                                <input type="text" name="LNAME" className="contact-input input-normal" id="mce-LNAME" />
+                                <label htmlFor="last_name">Last Name </label>
+                                <input value={lastName} onChange={handleChange} type="text" name="lastName" className="contact-input input-normal" id="last_name" required/>
                             </div>
                             <div className="mc-field-group">
-	                            <label htmlFor="mce-MMERGE5">Message </label>
-                                <textarea form="mc-embedded-subscribe-form" rows="5" cols="33" name="MMERGE5" className="contact-input input-normal" id="mce-MMERGE5"/>
+	                            <label htmlFor="message">Message </label>
+                                <textarea value={message} onChange={handleChange} form="contact-form" rows="5" cols="33" name="message" className="contact-input input-normal" id="message"/>
                             </div>
-                            <div id="mce-responses" className="clear">
-                                <div className="response" id="mce-error-response" style={{display:"none"}}></div>
-                                <div className="response" id="mce-success-response" style={{display:"none"}}></div>
+                            <div className="submit-container">
+                                {
+                                    loadStatus === 'uninit' ? 
+                                        <input type="submit" value="Submit" className="submit-btn"></input>
+                                        :
+                                        loadStatus === 'init' ?
+                                            <span className="lds-dual-ring"></span>
+                                            :
+                                            loadStatus === 'done' ?
+                                                <span>Thank you! We will reach out within 24 hours.</span>
+                                                :
+                                                <span>There was an error with the contact submission. Please try again later.</span>
+                                }
                             </div>
-                            <div style={{position: "absolute", left: -5000}} aria-hidden="true"><input type="text" name="b_9dcb1306505c56bb56d2794f6_ca7fb407a4" tabIndex="-1" /></div>
-                            <div className="clear"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" className="submit-btn" /></div>
                         </div>
                     </form>
                 </div>

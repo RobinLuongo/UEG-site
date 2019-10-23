@@ -69,44 +69,11 @@ form .pt-input-container {
     color: #066b98;
 }
 
-.form-submit {
-    background-color: #066b98;
+.pt-input-container .submit-btn {
     padding: 15px 30px;
-    border-radius: 3px;
-    cursor: pointer;
     display: flex;
     color: white;
     width: auto !important;
     border: none !important;
 }
 
-.form-submit:hover {
-    background-color: #0166a0;
-}
-
-/* loading spinner */
-.lds-dual-ring {
-    display: inline-block;
-    width: 64px;
-    height: 64px;
-  }
-  .lds-dual-ring:after {
-    content: " ";
-    display: block;
-    width: 46px;
-    height: 46px;
-    margin: 1px;
-    border-radius: 50%;
-    border: 5px solid #066b98;
-    border-color: #066b98 transparent #066b98 transparent;
-    animation: lds-dual-ring 1.2s linear infinite;
-  }
-  @keyframes lds-dual-ring {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  

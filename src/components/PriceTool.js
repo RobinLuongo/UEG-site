@@ -44,9 +44,8 @@ const Form = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         setLoadStatus("init");
-        axios.post('https://ueg-price-tool.herokuapp.com', values)
+        axios.post('https://ueg-price-tool.herokuapp.com/pricetool', values)
             .then(res => {
-                console.log(res.status)
                 if (res.status == 200) {
                     setLoadStatus("done")
                 } else {
@@ -126,7 +125,7 @@ const Form = () => {
             <div className="pt-input-container">
                 {
                     loadStatus === 'uninit' ? 
-                        <input type="submit" value="Generate Report" className="form-submit"></input>
+                        <input type="submit" value="Generate Report" className="submit-btn"></input>
                         :
                         loadStatus === 'init' ?
                             <span className="lds-dual-ring"></span>
