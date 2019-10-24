@@ -22,6 +22,7 @@ export default function Contact() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        setLoadStatus("init");
         axios.post('https://ueg-price-tool.herokuapp.com/contact', values)
             .then(res => {
                 if (res.status == 200) {
