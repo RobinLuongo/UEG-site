@@ -106,7 +106,7 @@ const Form = () => {
                     <label htmlFor="space_choice">Space Buildout</label>
                     <select id="space_choice" className="input-normal"  name="spaceChoice" value={spaceChoice} onChange={handleChange} required>
                         <option value="Retrofitting Space">Retrofitting Space</option>
-                        <option value="New Construction">New Contruction</option>
+                        <option value="New Construction">New Construction</option>
                     </select>
                 </div>
                 <hr className="grey-bar"></hr>
