@@ -106,7 +106,7 @@ const Form = () => {
                     <label htmlFor="space_choice">Space Buildout</label>
                     <select id="space_choice" className="input-normal"  name="spaceChoice" value={spaceChoice} onChange={handleChange} required>
                         <option value="Retrofitting Space">Retrofitting Space</option>
-                        <option value="New Contruction">New Contruction</option>
+                        <option value="New Construction">New Contruction</option>
                     </select>
                 </div>
                 <hr className="grey-bar"></hr>
@@ -131,7 +131,7 @@ const Form = () => {
                             <span className="lds-dual-ring"></span>
                             :
                             loadStatus === 'done' ?
-                                <span>Thank you! You will receive your report via email within 24 hours.</span>
+                                <span>Thank you! You will receive your report shortly via email.</span>
                                 :
                                 <span>There was an error submitting the report. Please try again.</span>
                 }
