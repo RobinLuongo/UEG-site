@@ -1,0 +1,45 @@
+{
+    "title": "Athletic Directors Ready to Pursue Collegiate Esports",
+    "subTitle": "Broad Yet Shallow Knowledge of Esports; A Willingness to Lead Program Implementation",
+    "image": {
+        "src": "/content/images/esports/mouse.jpg",
+        "position": "inline"
+    },
+    "sections": [
+        {
+            "heading": "Assessing Familiarity with Esports and Competitive Video Game Culture",
+            "paragraphs": [
+                {
+                    "body": "Over a month-long period, we sent a survey to 2,047 athletic directors from across the country. Our survey included questions designed to assess respondents’ understanding of esports, their perceptions of what value an esports program could offer to their school community, and their sense of where the greatest obstacles exist to creating a program."
+                },
+                {
+                    "body": "Among our first goals was to establish a baseline of familiarity with esports among our respondents. To this end, we asked respondents to report their “level of familiarity with esports and competitive video game culture.” Perhaps unsurprisingly, we found a high degree of self-reported familiarity, with 87% of respondents registering a sense of familiarity with esports. These data indicate the nearly ubiquitous awareness of esports within the collegiate athletic sphere."
+                }
+            ]
+        },
+        {
+            "heading": "Broad Awareness, Less Confidence in Implementing A Program",
+            "paragraphs": [
+                {
+                    "body": "As a second and related measure of familiarity, we asked respondents to qualify their level of comfort with “leading an effort to develop an esports program on my campus.” Here, 58% of respondents reported that they would be comfortable leading program development efforts. Based on the numerous comments left by respondents, we attribute the difference between levels of self-reported familiarity with esports and the level of confidence around implementation to a lack of resources and consensus practices for developing a program. There is a clear and present need to marshal and disseminate the information that institutional decision-makers need to operationalize a program from the ground-up."
+                }
+            ]
+        },
+        {
+            "heading": "Lack of Aggregated Resources Factor Into Responses",
+            "paragraphs": [
+                {
+                    "body": "Because comfort and familiarity are self-reported measures, we did not attempt to verify (except anecdotally) the objective levels of familiarity with esports held by our most confident respondents. It is thus important to confront the possibility that some portion of the respondents “don’t know what they don’t know,” as it were, and are laboring under a false sense of confidence. It remains the case that information about the esports ecosystem is scattered or else unavailable; thus, we believe there is a high likelihood that many of those who registered a strong sense of familiarity have only a partial understanding of the scope and dimensionality of esports."
+                },
+                {
+                    "body": "Another means by which we controlled for experience was by isolating the data of those respondents whose schools have already established varsity programs, and whose self-assessments thus map more closely onto concrete experience with esports program development. As we will discuss, these respondents held higher levels of confidence about the potential for an esports program to enhance their institution as a whole."
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "author": "Jesse Bodony",
+        "date": "November 07, 2019",
+        "description": "This blog post is derived from the Uni Esports Group white paper, titled “State of the Game: Collegiate Esports and The Future of Gaming in Higher Education.” Over a month-long period, we sent a survey to 2,047 Athletic Directors from across the country. Our survey included questions designed to assess respondents’ understanding of esports, their perceptions of what value an esports program could offer to their school community, and their sense of where the greatest obstacles exist to creating a program."
+    }
+}

@@ -5,7 +5,9 @@ import './App.css';
 
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import PriceTool from './components/PriceTool'
+import PriceTool from './components/PriceTool';
+import Blog from './components/Blog';
+import BlogLanding from './components/BlogLanding';
 
 const NavWithLocation = withRouter(Navbar);
 const BlogWithLocation = withRouter(Blog);
@@ -19,8 +21,9 @@ function App() {
         <NavWithLocation altStyle={navStyle}/>
         <Switch>
           <Route path="/price-tool/" render={(props) => <PriceTool {...props} setNavStyle={setNavStyle} />} />
+          <Route exact path="/blog/" render={(props) => <BlogLanding {...props} setNavStyle={setNavStyle} />} />
+          <Route path="/blog/*" render={(props) => <BlogWithLocation {...props} setNavStyle={setNavStyle} />} />
           <Route path="/" render={(props) => <Home {...props} setNavStyle={setNavStyle} />} />
-          <Route path="/blog/" render={(props) => <BlogWithLocation {...props} setNavStyle={setNavStyle} />} />
         </Switch>
       </div>
     </Router>

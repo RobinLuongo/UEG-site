@@ -1,3 +1,10 @@
+html,
+body,
+#root,
+#root > div {
+    height: 100vh;
+}
+
 .hero {
     height: 580px;
     background-color: #0486d1;
@@ -33,6 +40,11 @@
 
 input, textarea {
     font: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
 }
 
 .bold {

@@ -1,0 +1,32 @@
+.blogLanding {
+    background-color: #f9f9f9;
+    padding: 100px 0px;
+    color: #313d3e;
+    height: 100%;
+}
+
+.blogLanding .container {
+    margin-top: 50px;
+}
+
+.blogLanding h1 {
+    margin-bottom: 50px;
+}
+
+.blogList {
+    padding-left: 0px;
+}
+
+.blogItem {
+    list-style: none;
+}
+
+.blogItem h2 {
+    color: #066b98;
+    margin-bottom: 2px;
+}
+
+.blogItem .content-text {
+    color: #313d3e;
+    letter-spacing: 0px;
+}

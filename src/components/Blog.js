@@ -43,12 +43,12 @@ export default function Blog(props) {
                 </div>
                 {content.sections.map((section, key) => {
                     return (
-                    <div key={key}>
+                    <div key={key} className="blog-section">
                         <h3>{section.heading}</h3>
                         {section.paragraphs.map((paragraph, key) => {
                             return (
                             <div key={key} className="paragraph-text">
-                                <div>{paragraph.tag}</div>
+                                {paragraph.tag ? <div>{paragraph.tag}</div> : ""}
                                 <p>{paragraph.body}</p>
                             </div>
                             )

@@ -46,7 +46,7 @@ export default function Navbar(props) {
                         })
                     }
                     <li className="nav-link">
-                        <Link to="/blog/blog1" onClick={(e) => {if(mobile) handleClick(e)}}>
+                        <Link to="/blog/" onClick={(e) => {if(mobile) handleClick(e)}}>
                             Blog
                         </Link>
                     </li>
